@@ -7,6 +7,8 @@ import base64
 import pickle
 import math
 
+st.text(subprocess.check_output(['cat', '/proc/version']))
+
 # Molecular descriptor calculator
 def desc_calc():
     # Performs the descriptor calculation
